@@ -1,0 +1,90 @@
+body, * {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+nav {
+	background-color: grey;
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-right: 60px;
+    border: 1px solid black;
+    height: 70px;
+	position: fixed;
+}
+
+nav ul {
+	list-style: none;
+	display: inline-block;
+}
+
+nav ul li {
+	float: right;
+	padding: 4px;
+	padding-left: 500px;
+}
+
+.left {
+	display: inline-block;
+	float: left;
+	padding-top: 20px;
+	padding-left: 35px;
+}
+
+
+label {
+	padding-top: 50px;
+	margin-bottom: 100px;
+}
+
+input {
+	width: 980px;
+	height: 50px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	padding-top: 0px;
+	padding-left: 17px;
+	margin-left: 195px;
+}
+
+a {  
+	font-size: 18px;
+	text-decoration: none;
+	text-align: right;
+}
+
+li a {
+	font-size: 18px;
+}
+
+li {
+	text-align: left;
+	margin-left: 265px;
+}
+
+p {
+	padding-top: 10px;
+	display: inline-block;
+}
+
+element {
+	padding-top: 15px;
+	padding-left: 683px;
+}
+
+.searchbutton {
+	display: inline-block;
+	padding-left: 3px;
+	width: 50px;
+	height: 50px;
+}
+
+.mg {
+	display: inline-block;	
+	padding-top: 350px;
+	padding-bottom: 10px;
+	height: 50px;
+	width: 50px;
+}
