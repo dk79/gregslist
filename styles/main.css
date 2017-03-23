@@ -4,7 +4,7 @@ body, * {
 	font-size: 22px;
 }
 
-nav {
+header {
 	background-color: grey;
     width: 100%;
     padding-top: 20px;
@@ -24,7 +24,7 @@ input {
 	border-radius: 10px;
 }
 
-nav a {
+nav {
 	float: right;
 }
 
@@ -58,9 +58,16 @@ section {
 ul {
 	list-style: none;
 }
-span, .pagination-link {
+
+.pagination {
 	border: 1px solid black;
 	border-radius: 5px;
+	display: inline-block;
+}
+
+.pagination span {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
 }
 
 .listings {
