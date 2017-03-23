@@ -1,37 +1,17 @@
 body, * {
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
+	font-size: 22px;
 }
 
 nav {
 	background-color: grey;
     width: 100%;
-    padding-top: 5px;
+    padding-top: 20px;
     padding-left: 40px;
     padding-right: 60px;
-    border: 1px solid black;
     height: 70px;
 	position: fixed;
-}
-
-nav ul {
-	list-style: none;
-	display: inline-block;
-}
-
-nav ul li {
-	float: right;
-	padding: 4px;
-}
-
-.left, .right, .middle {
-	display: inline-block;
-}
-
-label {
-	padding-top: 50px;
-	margin-bottom: 100px;
 }
 
 input {
@@ -44,30 +24,13 @@ input {
 	border-radius: 10px;
 }
 
-a {  
-	font-size: 18px;
-	text-decoration: none;
-	text-align: right;
+nav a {
+	float: right;
 }
 
-ul {
-	list-style: none;
-	margin: 0;	
-	padding: 0;
-}
-
-li a {
-	font-size: 18px;
-}
-
-li {
-	text-align: left;
-	margin-bottom: 10px;
-}
-
-p {
-	padding-top: 10px;
-	display: inline-block;
+main {
+	padding-top: 120px;
+	margin-left: 100px;
 }
 
 section {
@@ -75,22 +38,33 @@ section {
 	margin-left: 40px;
 }
 
-form {
-	margin-top: 15px;
-	margin-left: 40px;
+.logo {
+	float: left;
 }
 
-.searchbutton {
-	display: inline-block;
+.search-button {
+	margin-top: 10px;
 	padding-left: 3px;
-	width: 50px;
-	height: 50px;
-	border-radius: 10px;
+	width: 30px;
+	height: 30px;
+	border: 1px, solid grey;
+	border-radius: 5px;
 }
 
-.mg {
-	display: inline-block;	
-	padding-bottom: 10px;
-	height: 50px;
-	width: 50px;
+.search-bar {
+	width: 60%;
+}
+
+ul {
+	list-style: none;
+}
+span, .pagination-link {
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.listings {
+	margin-left: -80px;
+	margin-top: 40px;
+	line-height: 40px;
 }
